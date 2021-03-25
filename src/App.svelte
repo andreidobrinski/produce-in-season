@@ -9,9 +9,8 @@
 </script>
 
 <main>
-  <h1>What's in your season?</h1>
-  <p>It's {month} nao</p>
-  <p>You can buy:</p>
+  <h1>What's in season, Ontario?</h1>
+  <h2>It's <span class="month">{month}</span>, so try:</h2>
   <ul>
     {#each produce as item}
       <li>
