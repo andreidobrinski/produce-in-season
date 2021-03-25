@@ -3,18 +3,37 @@
   import { getMonth } from "./helper";
   const monthNumber = new Date().getMonth();
   const month = getMonth(monthNumber);
+  const initialProduce = {
+    fruit: [],
+    vegetable: [],
+  };
   const produce = data.default
     .filter((item) => item.months.includes(monthNumber))
-    .map((item) => item.produce);
+    .reduce((acc, current) => {
+      return {
+        ...acc,
+        [current.type]: [...acc[current.type], { ...current }],
+      };
+    }, initialProduce);
+  console.log("produce", produce);
 </script>
 
 <main>
   <h1>What's in season, Ontario?</h1>
   <h2>It's <span class="month">{month}</span>, so try:</h2>
+  <h3>Fruit</h3>
   <ul>
-    {#each produce as item}
+    {#each produce.fruit as item}
       <li>
-        {item}
+        {item.produce}
+      </li>
+    {/each}
+  </ul>
+  <h3>Vegetables</h3>
+  <ul>
+    {#each produce.vegetable as item}
+      <li>
+        {item.produce}
       </li>
     {/each}
   </ul>
