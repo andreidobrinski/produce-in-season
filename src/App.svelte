@@ -1,6 +1,7 @@
 <script>
   import * as data from "../ontarioData.json";
   import { getMonth } from "./helper";
+  import ProduceList from "./ProduceList.svelte";
   const monthNumber = new Date().getMonth();
   const month = getMonth(monthNumber);
   const initialProduce = {
@@ -15,28 +16,13 @@
         [current.type]: [...acc[current.type], { ...current }],
       };
     }, initialProduce);
-  console.log("produce", produce);
 </script>
 
 <main>
   <h1>What's in season, Ontario?</h1>
   <h2>It's <span class="month">{month}</span>, so try:</h2>
-  <h3>Fruit</h3>
-  <ul>
-    {#each produce.fruit as item}
-      <li>
-        {item.produce}
-      </li>
-    {/each}
-  </ul>
-  <h3>Vegetables</h3>
-  <ul>
-    {#each produce.vegetable as item}
-      <li>
-        {item.produce}
-      </li>
-    {/each}
-  </ul>
+  <ProduceList produce={produce.fruit} />
+  <ProduceList produce={produce.vegetable} />
 </main>
 
 <style>
@@ -53,14 +39,6 @@
     font-weight: 100;
   }
 
-  ul {
-    padding: 0;
-  }
-
-  .month {
-    box-shadow: inset 0 -8px 0 0 var(--green);
-  }
-
   @media (min-width: 640px) {
     main {
       max-width: none;
@@ -73,5 +51,7 @@
     --violet: rgb(128, 138, 159);
     --green: rgb(186, 210, 159);
     --lightGreen: rgb(204, 245, 172);
+    --shadowColour: var(--green);
+    --boxShadow: (box-shadow: inset 0 -8px 0 0 var(--colour));
   }
 </style>
