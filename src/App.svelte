@@ -29,6 +29,7 @@
   main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 1em;
     max-width: 240px;
@@ -41,12 +42,6 @@
     font-weight: 100;
   }
 
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
-
   :root {
     --purple: rgb(61, 43, 86);
     --blue: rgb(44, 73, 127);
@@ -54,6 +49,6 @@
     --green: rgb(186, 210, 159);
     --lightGreen: rgb(204, 245, 172);
     --shadowColour: var(--green);
-    --boxShadow: (box-shadow: inset 0 -8px 0 0 var(--colour));
+    --boxShadow: inset 0 -8px 0 0 var(--shadowColour);
   }
 </style>

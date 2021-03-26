@@ -27,6 +27,7 @@
 
   h3 {
     text-transform: capitalize;
+    box-shadow: var(--boxShadow);
   }
 
   button {
@@ -34,5 +35,6 @@
     background-color: transparent;
     padding: 0;
     margin: 0;
+    cursor: pointer;
   }
 </style>
