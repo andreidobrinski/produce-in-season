@@ -1,4 +1,5 @@
 <script>
+  import { fly } from "svelte/transition";
   export let produce;
   const type = produce[1].type;
   let isExpanded = true;
@@ -11,7 +12,7 @@
   <h3>{type}</h3>
 </button>
 {#if isExpanded}
-  <ul>
+  <ul transition:fly={{ y: -50, duration: 500 }}>
     {#each produce as item}
       <li>
         {item.produce}
