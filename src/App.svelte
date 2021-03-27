@@ -2,6 +2,7 @@
   import * as data from "../ontarioData.json";
   import { getMonth } from "./helper";
   import ProduceList from "./ProduceList.svelte";
+  import CornerSvg from "./CornerSvg.svelte";
   const monthNumber = new Date().getMonth();
   const month = getMonth(monthNumber);
   const initialProduce = {
@@ -18,12 +19,14 @@
     }, initialProduce);
 </script>
 
+<CornerSvg orientation="top-right" />
 <main>
   <h1>What's in season, Ontario?</h1>
   <h2>It's <span class="month">{month}</span>, so try:</h2>
   <ProduceList produce={produce.fruit} />
   <ProduceList produce={produce.vegetable} />
 </main>
+<CornerSvg orientation="bottom-left" />
 
 <style>
   main {
