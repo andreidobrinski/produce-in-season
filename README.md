@@ -7,6 +7,7 @@ An app to show what produce is in season this month in Ontario.
 - See produce in season this month
 - Show/hide based on fruit/vegetable headers
 - Check items off the list
+- See emoji confetti from the in-season produce
 
 Data from [Ontario.ca](https://www.ontario.ca/foodland/page/availability-guide)
 
