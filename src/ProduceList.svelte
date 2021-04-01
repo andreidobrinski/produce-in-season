@@ -3,6 +3,7 @@
   import ProduceListItem from "./ProduceListItem.svelte";
   export let produce;
   const type = produce[1].type;
+  const formattedType = type === "vegetable" ? "vegetables" : type;
   let isExpanded = true;
   function toggle() {
     isExpanded = !isExpanded;
@@ -10,7 +11,7 @@
 </script>
 
 <button on:click={toggle} type="button">
-  <h3>{type}</h3>
+  <h3>{formattedType}</h3>
 </button>
 {#if isExpanded}
   <ul transition:fly={{ y: -50, duration: 500 }}>
