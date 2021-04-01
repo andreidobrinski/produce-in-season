@@ -1,14 +1,16 @@
 <script>
   import { onMount } from "svelte";
-  const height = document.documentElement.scrollHeight;
+  import { getProduceEmojis } from "./helper";
 
-  let characters = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🍎"];
+  export let produce;
 
-  let confetti = new Array(50)
+  let emojis = getProduceEmojis(produce);
+
+  let confetti = new Array(emojis.length * 2)
     .fill()
     .map((_, i) => {
       return {
-        character: characters[i % characters.length],
+        character: emojis[i % emojis.length],
         x: Math.random() * 100,
         y: -20 - Math.random() * 100,
         r: 0.1 + Math.random() * 1,
@@ -23,7 +25,7 @@
       frame = requestAnimationFrame(loop);
       confetti = confetti.map((emoji) => {
         emoji.y += 0.2 * emoji.r;
-        if (emoji.y > 160) emoji.y = -20;
+        if (emoji.y > 140) emoji.y = -20;
         return emoji;
       });
     }
@@ -34,16 +36,26 @@
   });
 </script>
 
-{#each confetti as c}
-  <span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})">
-    {c.character}
-  </span>
-{/each}
+<div role="presentation">
+  {#each confetti as c}
+    <span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})">
+      {c.character}
+    </span>
+  {/each}
+</div>
 
 <style>
+  div {
+    max-width: 100vw;
+  }
   span {
     z-index: -1;
     position: absolute;
-    font-size: 3vw;
+    font-size: 3em;
+  }
+  @media (min-width: 640px) {
+    span {
+      font-size: 5vw;
+    }
   }
 </style>

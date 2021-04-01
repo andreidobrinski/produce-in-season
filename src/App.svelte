@@ -2,31 +2,35 @@
   import * as data from "../ontarioData.json";
   import { getMonth } from "./helper";
   import ProduceList from "./ProduceList.svelte";
-  import CornerSvg from "./CornerSvg.svelte";
+  import Confetti from "./Confetti.svelte";
+  import Footer from "./Footer.svelte";
+
   const monthNumber = new Date().getMonth();
   const month = getMonth(monthNumber);
   const initialProduce = {
     fruit: [],
     vegetable: [],
   };
-  const produce = data.default
-    .filter((item) => item.months.includes(monthNumber))
-    .reduce((acc, current) => {
-      return {
-        ...acc,
-        [current.type]: [...acc[current.type], { ...current }],
-      };
-    }, initialProduce);
+  const produce = data.default.filter((item) =>
+    item.months.includes(monthNumber)
+  );
+  const sorted = produce.reduce(
+    (acc, current) => ({
+      ...acc,
+      [current.type]: [...acc[current.type], { ...current }],
+    }),
+    initialProduce
+  );
 </script>
 
-<CornerSvg orientation="top-right" />
+<Confetti {produce} />
 <main>
   <h1>What's in season, Ontario?</h1>
   <h2>It's <span class="month">{month}</span>, so try:</h2>
-  <ProduceList produce={produce.fruit} />
-  <ProduceList produce={produce.vegetable} />
+  <ProduceList produce={sorted.fruit} />
+  <ProduceList produce={sorted.vegetable} />
 </main>
-<CornerSvg orientation="bottom-left" />
+<Footer {produce} />
 
 <style>
   main {
@@ -34,15 +38,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1em;
     max-width: 240px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   h1 {
     color: var(--purple);
     font-size: 3em;
     font-weight: 100;
+    margin-top: 16px;
   }
 
   :root {
