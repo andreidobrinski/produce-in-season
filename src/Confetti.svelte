@@ -11,7 +11,7 @@
     .map((_, i) => {
       return {
         character: emojis[i % emojis.length],
-        x: Math.random() * 100,
+        x: Math.random() * 94,
         y: -20 - Math.random() * 100,
         r: 0.1 + Math.random() * 1,
       };
@@ -38,7 +38,7 @@
 
 <div role="presentation">
   {#each confetti as c}
-    <span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})">
+    <span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r});">
       {c.character}
     </span>
   {/each}
