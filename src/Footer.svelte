@@ -26,7 +26,7 @@
 <style>
   footer {
     margin-top: 64px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     text-align: end;
   }
 
@@ -44,5 +44,6 @@
 
   div {
     margin-top: 8px;
+    margin-bottom: 8px;
   }
 </style>
