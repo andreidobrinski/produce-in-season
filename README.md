@@ -2,6 +2,8 @@
 
 # Produce in Season
 
+[Demo](https://andreidobrinski.com/produce-in-season/)
+
 An app to show what produce is in season this month in Ontario.
 
 - See produce in season this month
@@ -10,9 +12,6 @@ An app to show what produce is in season this month in Ontario.
 - See emoji confetti from the in-season produce
 
 Data from [Ontario.ca](https://www.ontario.ca/foodland/page/availability-guide)
-
-// TODO: add demo link
-[Demo](#)
 
 ## Running Locally
 
