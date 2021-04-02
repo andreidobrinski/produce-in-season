@@ -1,1 +1,854 @@
-[{"produce":"Apples","type":"fruit","months":[0,1,2,3,4,5,7,8,9,10,11]},{"produce":"Apricots","type":"fruit","months":[6,7]},{"produce":"Blueberries","type":"fruit","months":[6,7,8]},{"produce":"Cherries","type":"fruit","months":[5,6]},{"produce":"Crabapples","type":"fruit","months":[8,9,10]},{"produce":"Cranberries","type":"fruit","months":[7,8,9]},{"produce":"Currants","type":"fruit","months":[6,7]},{"produce":"Gooseberries","type":"fruit","months":[6,7]},{"produce":"Grapes","type":"fruit","months":[7,8]},{"produce":"Muskmelon","type":"fruit","months":[7,8]},{"produce":"Nectarines","type":"fruit","months":[7,8]},{"produce":"Peaches","type":"fruit","months":[6,7,8]},{"produce":"Pears","type":"fruit","months":[7,8,9,10,11]},{"produce":"Plums","type":"fruit","months":[6,7,8,9]},{"produce":"Raspberries","type":"fruit","months":[6,7,8,9]},{"produce":"Rhubarb","type":"fruit","months":[0,1,2,3,4,5]},{"produce":"Strawberries (Field)","type":"fruit","months":[4,5,6,7,8,9]},{"produce":"Strawberries (Greenhouse)","type":"fruit","months":[0,1,2,3,4,5,9,10,11]},{"produce":"Watermelon","type":"fruit","months":[6,7,8]},{"produce":"Artichoke","type":"vegetable","months":[7,8,9]},{"produce":"Asian Vegetables","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Asparagus","type":"vegetable","months":[4,5]},{"produce":"Beans (Green/Yellow)","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Beets","type":"vegetable","months":[0,1,2,3,6,7,8,9,10,11]},{"produce":"Bitter Melon/Fuzzy Squash","type":"vegetable","months":[7,8,9]},{"produce":"Bok Choy","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Broccoli","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Brussels Sprouts","type":"vegetable","months":[8,9,10]},{"produce":"Cabbage","type":"vegetable","months":[0,1,2,3,5,6,7,8,9,10,11]},{"produce":"Carrots","type":"vegetable","months":[0,1,2,3,4,6,7,8,9,10,11]},{"produce":"Cauliflower","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Celery","type":"vegetable","months":[6,7,8,9]},{"produce":"Chinese Broccoli (White Flower)","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Corn","type":"vegetable","months":[6,7,8,9]},{"produce":"Cucumber (Field)","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Cucumber (Greenhouse)","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Daikon Radish","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Edible Amaranth (Hinn Choy)","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Eggplant","type":"vegetable","months":[7,8,9]},{"produce":"Garlic","type":"vegetable","months":[0,1,6,7,8,9,10,11]},{"produce":"Leeks","type":"vegetable","months":[0,1,7,8,9,10,11]},{"produce":"Lettuce (Assorted)","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Lettuce (Greenhouse)","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Mushrooms","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Mustard Greens (Gai Choy)","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Napa Cabbage","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Onions (Cooking)","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Onions (Green)","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Onions (Red)","type":"vegetable","months":[0,1,2,3,8,9,10,11]},{"produce":"Parsnips","type":"vegetable","months":[0,1,2,3,7,8,9,10,11]},{"produce":"Peas (Green)","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Peas (Snow)","type":"vegetable","months":[5,6,7,8]},{"produce":"Peppers (Field)","type":"vegetable","months":[6,7,8,9]},{"produce":"Peppers (Greenhouse)","type":"vegetable","months":[1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Potatoes","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Pumpkin","type":"vegetable","months":[8,9]},{"produce":"Radicchio","type":"vegetable","months":[5,6,7]},{"produce":"Radishes","type":"vegetable","months":[4,5,6,7,8,9,10]},{"produce":"Rapini","type":"vegetable","months":[6,7,8,9]},{"produce":"Rutabaga","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Snow Pea Shoots (Dow Miu)","type":"vegetable","months":[4,5,6,7,8,9]},{"produce":"Spinach","type":"vegetable","months":[4,5,6,7,8,9]},{"produce":"Sprouts","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Squash","type":"vegetable","months":[0,1,2,7,8,9,10,11]},{"produce":"Summer squash","type":"vegetable","months":[5,6,7,8,9]},{"produce":"Sweet potatoes","type":"vegetable","months":[0,1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Tomatoes (Field)","type":"vegetable","months":[6,7,8,9]},{"produce":"Tomatoes (Greenhouse)","type":"vegetable","months":[1,2,3,4,5,6,7,8,9,10,11]},{"produce":"Water Spinach (Tung Choy)","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Yow Choy (Yellow Flower)","type":"vegetable","months":[5,6,7,8,9,10]},{"produce":"Zucchini","type":"vegetable","months":[6,7,8,9]}]
+{
+  "allProduce": [
+    {
+      "produce": "Apples",
+      "type": "fruit",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Apricots",
+      "type": "fruit",
+      "months": [
+        6,
+        7
+      ]
+    },
+    {
+      "produce": "Blueberries",
+      "type": "fruit",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Cherries",
+      "type": "fruit",
+      "months": [
+        5,
+        6
+      ]
+    },
+    {
+      "produce": "Crabapples",
+      "type": "fruit",
+      "months": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Cranberries",
+      "type": "fruit",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Currants",
+      "type": "fruit",
+      "months": [
+        6,
+        7
+      ]
+    },
+    {
+      "produce": "Gooseberries",
+      "type": "fruit",
+      "months": [
+        6,
+        7
+      ]
+    },
+    {
+      "produce": "Grapes",
+      "type": "fruit",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Muskmelon",
+      "type": "fruit",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Nectarines",
+      "type": "fruit",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Peaches",
+      "type": "fruit",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Pears",
+      "type": "fruit",
+      "months": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Plums",
+      "type": "fruit",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Raspberries",
+      "type": "fruit",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Rhubarb",
+      "type": "fruit",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "produce": "Strawberries (Field)",
+      "type": "fruit",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Strawberries (Greenhouse)",
+      "type": "fruit",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Watermelon",
+      "type": "fruit",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Artichoke",
+      "type": "vegetable",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Asian Vegetables",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Asparagus",
+      "type": "vegetable",
+      "months": [
+        4,
+        5
+      ]
+    },
+    {
+      "produce": "Beans (Green/Yellow)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Beets",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Bitter Melon/Fuzzy Squash",
+      "type": "vegetable",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Bok Choy",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Broccoli",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Brussels Sprouts",
+      "type": "vegetable",
+      "months": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Cabbage",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Carrots",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Cauliflower",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Celery",
+      "type": "vegetable",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Chinese Broccoli (White Flower)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Corn",
+      "type": "vegetable",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Cucumber (Field)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Cucumber (Greenhouse)",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Daikon Radish",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Edible Amaranth (Hinn Choy)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Eggplant",
+      "type": "vegetable",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Garlic",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Leeks",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Lettuce (Assorted)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Lettuce (Greenhouse)",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Mushrooms",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Mustard Greens (Gai Choy)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Napa Cabbage",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Onions (Cooking)",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Onions (Green)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Onions (Red)",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Parsnips",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Peas (Green)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Peas (Snow)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "produce": "Peppers (Field)",
+      "type": "vegetable",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Peppers (Greenhouse)",
+      "type": "vegetable",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Potatoes",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Pumpkin",
+      "type": "vegetable",
+      "months": [
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Radicchio",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "produce": "Radishes",
+      "type": "vegetable",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Rapini",
+      "type": "vegetable",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Rutabaga",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Snow Pea Shoots (Dow Miu)",
+      "type": "vegetable",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Spinach",
+      "type": "vegetable",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Sprouts",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Squash",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Summer squash",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Sweet potatoes",
+      "type": "vegetable",
+      "months": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Tomatoes (Field)",
+      "type": "vegetable",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "produce": "Tomatoes (Greenhouse)",
+      "type": "vegetable",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "produce": "Water Spinach (Tung Choy)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Yow Choy (Yellow Flower)",
+      "type": "vegetable",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "produce": "Zucchini",
+      "type": "vegetable",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

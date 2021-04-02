@@ -11,7 +11,7 @@
     fruit: [],
     vegetable: [],
   };
-  const produce = data.default.filter((item) =>
+  const produce = data.allProduce.filter((item) =>
     item.months.includes(monthNumber)
   );
   const sorted = produce.reduce(
