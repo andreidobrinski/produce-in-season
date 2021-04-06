@@ -28,6 +28,9 @@
     margin-top: 64px;
     margin-bottom: 64px;
     text-align: end;
+    background-color: var(--whiteBg);
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 
   a {

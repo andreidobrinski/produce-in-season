@@ -40,7 +40,7 @@
     text-align: center;
     max-width: 240px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: var(--whiteBg);
   }
 
   h1 {
@@ -58,5 +58,6 @@
     --lightGreen: rgb(204, 245, 172);
     --shadowColour: var(--green);
     --boxShadow: inset 0 -8px 0 0 var(--shadowColour);
+    --whiteBg: rgba(255, 255, 255, 0.7);
   }
 </style>
