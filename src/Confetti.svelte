@@ -38,18 +38,23 @@
 
 <div role="presentation">
   {#each confetti as c}
-    <span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r});">
+    <span class="confet" style="left: {c.x}%; top: {c.y}%; transform: scale({c.r});">
       {c.character}
     </span>
   {/each}
 </div>
 
 <style>
-  div {
-    max-width: 100vw;
-  }
-  span {
+  div[role="presentation"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     z-index: -1;
+  }
+  span.confet {
     position: absolute;
     font-size: 3em;
   }
