@@ -1,8 +1,8 @@
-![icon](./public/favicon.png)
+![icon](./produce.gif)
 
 # Produce in Season
 
-[Demo](https://andreidobrinski.com/produce-in-season/)
+[Link to Demo](https://andreidobrinski.com/produce-in-season/)
 
 An app to show what produce is in season this month in Ontario.
 
