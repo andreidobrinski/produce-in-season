@@ -36,3 +36,5 @@ npm run dev
 - [Rollup](https://rollupjs.org)
 - Confetti animation from [Svelte tutorial](https://svelte.dev/tutorial/congratulations)
 - Data from [Ontario.ca](https://www.ontario.ca/foodland/page/availability-guide)
+
+![logo](./public/favicon.png)
