@@ -1,4 +1,4 @@
-![icon](./produce.gif)
+![demo gif](./produce.gif)
 
 # Produce in Season
 
