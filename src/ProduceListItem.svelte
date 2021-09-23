@@ -5,8 +5,7 @@
     isChecked = !isChecked;
   }
   const colours = ["--purple", "--blue", "--violet", "--green", "--lightGreen"];
-  const getRandomColourIndex = () =>
-    Math.floor(Math.random() * (colours.length + 1));
+  const getRandomColourIndex = () => Math.floor(Math.random() * colours.length);
   const colour = colours[getRandomColourIndex()];
 </script>
 
