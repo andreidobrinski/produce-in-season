@@ -26,6 +26,7 @@
   button {
     display: flex;
     align-items: center;
+    text-align: start;
   }
 
   .checked {
