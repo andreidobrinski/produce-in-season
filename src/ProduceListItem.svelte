@@ -7,30 +7,50 @@
   const colours = ["--purple", "--blue", "--violet", "--green", "--lightGreen"];
   const getRandomColourIndex = () => Math.floor(Math.random() * colours.length);
   const colour = colours[getRandomColourIndex()];
+  const skew = Math.floor(Math.random() * 35);
 </script>
 
 <li>
   <button
     on:click={toggle}
-    class={isChecked ? "checked" : ""}
-    style={`text-decoration-color: var(${colour});`}
     aria-label={`${isChecked ? "uncheck" : "check"} ${item}`}
   >
     <input type="checkbox" bind:checked={isChecked} />
-    {item}
+    <span
+      style="
+        --checkedColour: var({colour});
+        --isChecked: {isChecked ? '100%' : '0'};
+        --skew: skew({skew}deg);
+      "
+    >
+      {item}
+    </span>
   </button>
 </li>
 
 <style>
   button {
+    position: relative;
+    z-index: 2;
     display: flex;
     align-items: center;
     text-align: start;
   }
 
-  .checked {
-    text-decoration: line-through;
-    text-decoration-thickness: 4px;
+  span::before {
+    content: "";
+    display: inline-block;
+    background: var(--checkedColour);
+    transform: rotate(2deg);
+    display: inline-block;
+    transform: var(--skew);
+    position: absolute;
+    width: var(--isChecked);
+    height: 20%;
+    z-index: -1;
+    left: 0px;
+    top: 43%;
+    transition: width 0.3s ease-in;
   }
 
   input {
