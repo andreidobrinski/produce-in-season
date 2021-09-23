@@ -50,6 +50,32 @@
     margin-top: 16px;
   }
 
+  h2 {
+    font-weight: normal;
+  }
+
+  .month {
+    position: relative;
+    font-weight: bold;
+    margin: 0 6px;
+    color: white;
+    z-index: 2;
+  }
+
+  .month::before {
+    content: "";
+    display: inline-block;
+    background: var(--purple);
+    transform: rotate(2deg);
+    display: inline-block;
+    transform: skew(4deg);
+    position: absolute;
+    width: 107%;
+    height: 100%;
+    z-index: -1;
+    left: -4px;
+  }
+
   :root {
     --purple: rgb(61, 43, 86);
     --blue: rgb(44, 73, 127);
