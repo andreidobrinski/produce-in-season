@@ -31,7 +31,6 @@
 <style>
   button {
     position: relative;
-    z-index: 2;
     display: flex;
     align-items: center;
     text-align: start;
@@ -47,10 +46,10 @@
     position: absolute;
     width: var(--isChecked);
     height: 20%;
-    z-index: -1;
     left: 0px;
     top: 43%;
     transition: width 0.3s ease-in;
+    opacity: 90%;
   }
 
   input {
